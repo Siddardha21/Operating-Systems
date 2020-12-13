@@ -29,7 +29,8 @@
 ### **Assignment-3**: Implement the following CPU Scheduling algorithms
 1. Priority Scheduling algorithm
 2. Round Robin CPU Scheduling algorithm
--Implement the Priority algorithm in Non-Pre-emptive mode. The algorithms should display a table which includes the Process Id, CPU Burst Time, Waiting Time and Turn around time. Also, calculate the Average Waiting Time and Average Turnaround time.
+<br/>
+Implement the Priority algorithm in Non-Pre-emptive mode. The algorithms should display a table which includes the Process Id, CPU Burst Time, Waiting Time and Turn around time. Also, calculate the Average Waiting Time and Average Turnaround time.
 ---
 ### **Assignment-4**: Implement the Dining Philosophers problem using Java. The program should ask the user to enter the number of Philosophers want to eat simultaneously and it should provide a sequence of steps to by which the philosophers eat. If the input is 5, it should result in dead lock.
 > Use the Semaphore class from the package java.util.concurrent
@@ -70,19 +71,3 @@ chopsticks[ ((phNo+1)%5)].release(); //release the right chopstick
 > Identify whether the requested page is valid (V) or not (I). (i.e. the valid bit corresponding to that page will be set as ‘v’ or as ‘i’).
 ### Q3: Read the following values as user input: The number of users, the size of code space of the reentrant code as KB, the size of the data space of the reentrant code in KB.
 > Identify the total space required with shared pages and without using shared pages?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
